@@ -5,11 +5,11 @@
 - Open with Postman / Command Shell
 - Run Command:  
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json 
+newman run Rest_API_Testing_For_Student_Details.postman_collection.json -e Rest_API_Testing_For_Student_Details.postman_environment.json 
 ```
 - Run Command for Report: 
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json -r cli,htmlextra
+newman run Rest_API_Testing_For_Student_Details.postman_collection.json -e Rest_API_Testing_For_Student_Details.postman_environment.json -r cli,htmlextra
 ```
 
 ## Technology used:
@@ -33,7 +33,7 @@ npm install -g newman-reporter-htmlextra
 ```
 
 ## API Documentation:
-- https://documenter.getpostman.com/view/13082503/2s93Xwz4Az
+- https://documenter.getpostman.com/view/25355745/2s9XxwxEec
 
 ## Test case list:
 1. ### Create Student
@@ -49,7 +49,8 @@ npm install -g newman-reporter-htmlextra
 3. ### Update Student
 	> In the test case you need to validate the following field values:
  	1. > Only Message
-4. ### Verify Verify Updated Student Details
+     
+4. ### Verify Updated Student Details
 	> In the test case you need to validate the following field values:
 	1. > First Name
  	2. > Middle Name
@@ -81,9 +82,7 @@ npm install -g newman-reporter-htmlextra
 	13. > Home Address
 	14. > Mobile
 
-8. ### Delete Specific Student
-	> In the test case you need to validate the following field values:
-	1. > Only Message
+
 
 ## Newman Report Summary:
 ![Newman Report Summary](https://github.com/rubelhosainsqa/Rest_API_Testing_For_Student_Details/assets/119733194/c98ded19-28a9-48a1-a749-822f856439d8)
