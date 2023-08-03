@@ -1,3 +1,4 @@
+Student_Details_Rest_API_Newman
 How to run this project
 Clone this project
 Open with Postman / Command Shell
@@ -112,3 +113,6 @@ In the test case you need to validate the following field values:
 Response time below 300
 
 Newman Report Summary:
+Newman Report Summary
+
+Newman Report Summary
