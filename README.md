@@ -25,7 +25,7 @@ newman run Rest_API_Testing_For_Student_Details.postman_collection.json -e Rest_
 ## Newman and Report Installation Process:
 - Newman Install Command:
 ```console
-npm install -g newman-reporter-htmlextra
+npm install -g newman
 ```
 - Newman Html Report Install Command:
 ```console
